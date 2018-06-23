@@ -1,0 +1,42 @@
+Local da Pasta:
+C:\Users\Users\AppData\Local\Programs\Python\Python36-32\Scripts>
+
+Comando a partir da pasta> Opencv 3.3.0:
+pip install opencv_python-3.3.0+contrib-cp36-cp36m-win32.whl
+
+Comando a partir da pasta> Numpy 1.13.3:
+pip install numpy-1.13.3+mkl-cp36-cp36m-win32.whl
+
+Comando a partir da pasta> Install matplotlib (online)
+pip install matplotlib
+
+Comando a partir da pasta> Install imutils (online) 
+pip install imutils
+
+Comando a partir da pasta> Install scipy (online)
+pip install scipy
+
+Comando a partir da pasta> Install argparse (online) 
+pip install argparse
+
+//Comando a partir da pasta> scipy 1.0.0:
+//pip install scipy-1.0.0rc1-cp36-none-win32.whl
+
+Local ativa pip:
+C:\Users\Users\AppData\Local\Programs\Python\Python36-32\Scripts>pip
+
+
+//comandos CMD//
+
+/cd ? Vai pasta raiz
+cd "nome pasta" ? Vai para a pasta citada
+/dir ? Lista pastas
+cd.. ?  Volta no diretório anterior
+cd.  ? Vai para a própria pasta
+
+
+1 - Abrir CMD dixando em 'C:\Users\Elementos>'
+2 - Abrir AppData 'C:\Users\Elementos>cd AppData'
+3 - Abrir pasta Script Phyton 'cd Local\Programs\Python\Python36-32\Scripts'
+4 - Execultar 'pip exe'
+5 - Verificar funcionameto do comando   'pip install'
