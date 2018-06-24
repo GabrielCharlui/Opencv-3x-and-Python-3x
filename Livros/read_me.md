@@ -1,6 +1,9 @@
 https://github.com/TechBookHunter/Free-Python-Books/tree/master/book
 
 
+https://github.com/epasham/Free-Python-Books/
+
+
 http://b-ok.xyz/s/?q=opencv&yearFrom=&yearTo=&language=&extension=&t=0
 
 
