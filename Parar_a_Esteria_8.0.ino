@@ -1,7 +1,7 @@
 //Definições pinos Arduino ligados a entrada da Ponte H
 
-int IN1 = 7;
-int IN2 = 6;
+int IN1 = 5;
+int IN2 = 4;
 int IN3 = 3;
 int IN4 = 2;
 
@@ -81,7 +81,7 @@ void loop()
         break;
     }
   }
-  Serial.println(leitura_A3); // Janela para Sensor de Barreira
+  //Serial.println(leitura_A3); // Janela para Sensor de Barreira
   if ((leitura_A3 > 960) && (ajuste == 1)) // Para a Esteira para Inspeção
   {
     esteira = 1;
@@ -127,10 +127,10 @@ void loop()
       digitalWrite(IN1, HIGH);
       digitalWrite(IN2, LOW);
 */
-      for (cont; cont <= 260000; cont++)
+      for (cont; cont <= 290000; cont++)
     {
       //Serial.println(cont);
-      if ((cont > 0) && (cont <= 30000)) //Aciona Balizador
+      if ((cont > 0) && (cont <= 30000)) //Aciona Balizador t 30000
       {
         /*TESTE LETRA E*/
         ///////////////////////////
@@ -146,14 +146,14 @@ void loop()
         */
       }
 
-      if ((cont > 30000) && (cont <= 234990)) //Intervalo Balizador
+      if ((cont > 30000) && (cont <= 264990)) //Intervalo Balizador
       {
         digitalWrite(IN3, HIGH);
         digitalWrite(IN4, HIGH);
         //Serial.println("intervalo balizador");
       }
 
-      if ((cont > 234990) && (cont <= 259990)) //Desaciona Balizador tempo 25000
+      if ((cont > 264990) && (cont <= 289990)) //Desaciona Balizador t 25000
       {
         /*TESTE LETRA E*/
         ///////////////////////////
@@ -169,7 +169,7 @@ void loop()
            digitalWrite(IN2, LOW);
         */
       }
-      if (cont > 259990)
+      if (cont > 289990)
       {
         digitalWrite(IN3, HIGH);
         digitalWrite(IN4, HIGH);
