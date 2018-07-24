@@ -82,7 +82,7 @@ void loop()
     }
   }
   //Serial.println(leitura_A3); // Janela para Sensor de Barreira
-  if ((leitura_A3 > 960) && (ajuste == 1)) // Para a Esteira para Inspeção
+  if ((leitura_A3 > 970) && (ajuste == 1)) // Para a Esteira para Inspeção
   {
     esteira = 1;
     ///////////////////////////
