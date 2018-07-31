@@ -23,7 +23,7 @@ void setup() {
   Serial.println("ARGUARDE INICIANDO BANLANCA");
   Serial.println("CONFIGURANDO ESCALA");
  
-  /*        * * * * * * * * * * * * * 
+  /*      * * * * * * * * * * * * * 
   calibra * kg -> scale.set_scale * Multiplica
           * x ->  Resultado       * Divide
           * * * * * * * * * * * * *
