@@ -17,6 +17,6 @@ port.write(b'D') #ImprimaNaSerial'D'
 	################################################################################################
 	# 								                                                               #    
 	#	b'*' -> b Representa o bit de inicio da comunicação (Modelo Comunicação Serial Assíncrona) #
-	#   *'H" -> D Representa a letra Enviada (Case-sensitive)                                                    #                                                      
+	#   *'H" -> D Representa a letra Enviada (Case-sensitive)                                      #                                                      
 	#                                                                                              #
 	################################################################################################

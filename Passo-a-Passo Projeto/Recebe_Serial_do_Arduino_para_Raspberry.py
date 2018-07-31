@@ -26,6 +26,6 @@ if (input == b'H'): #Se input for igual a H (Case-sensitive)
 	################################################################################################
 	# 								                                                               #    
 	#	b'*' -> b Representa o bit de inicio da comunicação (Modelo Comunicação Serial Assíncrona) #
-	#   *'H" -> H Representa a letra esperada (Case-sensitive)                                                    #                                                      
+	#   *'H" -> H Representa a letra esperada (Case-sensitive)                                     #                                                     
 	#                                                                                              #
 	################################################################################################
