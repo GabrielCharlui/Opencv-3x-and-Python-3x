@@ -78,7 +78,7 @@ Diretório de Arquivos /  File Directory
 
 
 	Pense em si e nos demais usuários da rede mundial de computadores, 
-	seja livre para compartilhar, republicar, distribuir os código e 
+	seja livre para compartilhar, republicar, distribuir os códigos e 
 	conteúdos disposto nesse repositório. Com esses preceitos baseio 
 	as diretrizes desse trabalho e dos outros do futuro:
 
