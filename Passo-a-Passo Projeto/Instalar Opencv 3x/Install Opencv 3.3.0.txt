@@ -10,6 +10,9 @@ pip install numpy-1.13.3+mkl-cp36-cp36m-win32.whl
 Comando a partir da pasta> Install matplotlib (online)
 pip install matplotlib
 
+Comando a partir da pasta> Install opencv (online)
+pip install opencv-python
+
 Comando a partir da pasta> Install imutils (online) 
 pip install imutils
 
